@@ -38,7 +38,7 @@ public class JavaList {
         startN = System.nanoTime();
         System.out.println("1 time start linkedList " + startM);
         System.out.println("2 time start linkedList " + startN);
-        while (list.size() < 10000) {
+        while (linkedList.size() < 10000) {
             linkedList.add("0");
         }
         speedM = System.currentTimeMillis() - startM;
